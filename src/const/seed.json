@@ -1,0 +1,2622 @@
+[
+  {
+    "recharge": [
+      {
+        "id": "059c6b36-2dba-430b-b824-6a0eaf975e3d",
+        "amount": 27851,
+        "recharge_date": "2023-10-08T22:44:40.899Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Prepaid",
+        "created_at": "2023-10-08T16:47:42.154Z",
+        "updated_at": "2023-10-08T13:26:38.830Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3444740f-931b-4236-afdc-aab01b136137",
+        "amount": 55569,
+        "recharge_date": "2023-10-08T11:03:27.492Z",
+        "recharge_status": "Failed",
+        "recharge_type": "Postpaid",
+        "created_at": "2023-10-08T11:17:50.573Z",
+        "updated_at": "2023-10-08T14:55:43.003Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2eec206-a130-4f13-9046-f74e941ac672",
+        "amount": 93745,
+        "recharge_date": "2023-10-08T13:58:32.020Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Top-up",
+        "created_at": "2023-10-08T18:41:02.253Z",
+        "updated_at": "2023-10-08T19:33:01.296Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e5e2c33-d49a-4028-a3fc-ab4ead782bca",
+        "amount": 99267,
+        "recharge_date": "2023-10-08T22:58:14.467Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Data pack",
+        "created_at": "2023-10-08T19:23:55.514Z",
+        "updated_at": "2023-10-08T20:33:49.689Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cd85516-60d6-406f-b73a-27a3a67e1415",
+        "amount": 68878,
+        "recharge_date": "2023-10-08T13:34:22.460Z",
+        "recharge_status": "Refunded",
+        "recharge_type": "Roaming",
+        "created_at": "2023-10-08T11:25:10.321Z",
+        "updated_at": "2023-10-08T09:55:13.841Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "cb16ec44-d589-4020-baa2-26e07a71d548",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T11:41:16.453Z",
+        "updated_at": "2023-10-08T06:16:30.842Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15226cce-5cf0-4a9e-ba9b-8f7cb43f411e",
+        "issue_type": "Technical",
+        "issue_description": "Incorrect bill amount",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T18:43:24.244Z",
+        "updated_at": "2023-10-08T08:19:35.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "306d16bb-8f4d-4c87-b823-53df9c3a270e",
+        "issue_type": "Account",
+        "issue_description": "Cannot make calls",
+        "issue_status": "In progress",
+        "created_at": "2023-10-08T19:02:46.638Z",
+        "updated_at": "2023-10-08T04:20:57.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a451a225-c23c-411c-a356-0680df1401bf",
+        "issue_type": "Service",
+        "issue_description": "No signal",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T20:33:29.307Z",
+        "updated_at": "2023-10-08T16:50:55.805Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fde71e6-5679-4cae-a9df-1cb8bb94e166",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer service",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-09T01:17:02.962Z",
+        "updated_at": "2023-10-08T03:45:19.674Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "d3138efd-9722-4927-8ce9-89b041901df0",
+        "amount": 4896,
+        "cashback_date": "2023-10-08T21:04:50.942Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T04:46:12.181Z",
+        "updated_at": "2023-10-08T15:45:24.637Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8991419-b21a-4bb2-a064-1a7e0391a39f",
+        "amount": 3345,
+        "cashback_date": "2023-10-09T03:01:10.224Z",
+        "status": "Redeemed",
+        "source": "Mobile recharge",
+        "created_at": "2023-10-08T17:29:10.784Z",
+        "updated_at": "2023-10-09T03:23:11.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "757f0be5-ea91-4cee-9e22-e050892b05a5",
+        "amount": 90070,
+        "cashback_date": "2023-10-09T02:00:12.287Z",
+        "status": "Expired",
+        "source": "Bill payment",
+        "created_at": "2023-10-09T02:25:31.770Z",
+        "updated_at": "2023-10-08T07:36:02.308Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3319aaf7-2bf6-4c24-a5b9-7aaf4210276e",
+        "amount": 13591,
+        "cashback_date": "2023-10-08T12:31:54.707Z",
+        "status": "Pending",
+        "source": "Grocery shopping",
+        "created_at": "2023-10-08T03:48:15.967Z",
+        "updated_at": "2023-10-08T23:28:41.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d9cb852-abd9-4ebf-944f-512120b44a0b",
+        "amount": 78737,
+        "cashback_date": "2023-10-08T04:55:38.011Z",
+        "status": "Unused",
+        "source": "Flight booking",
+        "created_at": "2023-10-08T06:09:43.911Z",
+        "updated_at": "2023-10-08T06:47:26.833Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "c50b7528-60a6-4037-bbdd-f66ae8cd4dd9",
+        "amount": 18992,
+        "payment_date": "2023-10-09T02:50:09.656Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T10:08:24.761Z",
+        "updated_at": "2023-10-08T10:53:50.181Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a6caad7-899e-476e-b332-e106f3c3961e",
+        "amount": 7764,
+        "payment_date": "2023-10-08T09:21:47.380Z",
+        "payment_status": "Pending",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T04:25:08.644Z",
+        "updated_at": "2023-10-09T01:06:00.412Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4006898-fb75-4cd1-b9a8-005d1b04a063",
+        "amount": 97407,
+        "payment_date": "2023-10-08T05:48:38.164Z",
+        "payment_status": "Failed",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T07:56:03.265Z",
+        "updated_at": "2023-10-08T11:55:29.648Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f08265ea-99a6-4873-9db9-486c2ec47ac6",
+        "amount": 8926,
+        "payment_date": "2023-10-08T22:45:18.293Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T13:52:54.991Z",
+        "updated_at": "2023-10-08T18:21:35.201Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "199a21f5-b016-4795-98b3-0d1de59d2f1a",
+        "amount": 51140,
+        "payment_date": "2023-10-08T05:37:26.930Z",
+        "payment_status": "Refunded",
+        "bill_type": "Phone",
+        "created_at": "2023-10-09T02:55:04.715Z",
+        "updated_at": "2023-10-08T09:10:29.582Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f97bafd3-c736-438b-91bb-a0a729ee4a7b",
+        "email": "Stevie_Mitchell@roq.tech",
+        "firstName": "Willow",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45943764",
+        "tenantId": null
+      },
+      {
+        "reference": "b9d67acc-2f17-4940-992b-c06494236cd3",
+        "email": "Stone_Ritchie@roq.tech",
+        "firstName": "Rubie",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/729.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a5cf996-cf74-45d1-8426-901eabe42777",
+        "email": "Harry.Predovic@roq.tech",
+        "firstName": "Karlie",
+        "lastName": "Goyette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76666366",
+        "tenantId": null
+      },
+      {
+        "reference": "ab1e6561-7cdf-4e1d-9ffb-93a17b2db365",
+        "email": "Jocelyn.Bode@roq.tech",
+        "firstName": "Adelia",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/485.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac33a900-332b-4989-89e2-ce9956220369",
+        "email": "Reese_Boehm94@roq.tech",
+        "firstName": "Nella",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83555690",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "d6282194-4c84-429b-b7ad-548ad78630a7",
+        "amount": 48837,
+        "recharge_date": "2023-10-08T21:20:15.563Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T18:48:08.795Z",
+        "updated_at": "2023-10-08T17:35:26.665Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "333f356d-b215-4c90-95ba-bbf81d765ccb",
+        "amount": 65623,
+        "recharge_date": "2023-10-08T21:28:03.786Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-08T09:51:02.805Z",
+        "updated_at": "2023-10-08T11:51:40.250Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3e47f85-c6c6-4404-b743-7e943b2179f3",
+        "amount": 69166,
+        "recharge_date": "2023-10-08T11:10:11.363Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T19:38:07.569Z",
+        "updated_at": "2023-10-08T05:21:04.577Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20f299d8-ea0a-40fc-9f91-ad738b3af786",
+        "amount": 39447,
+        "recharge_date": "2023-10-08T22:26:37.057Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T10:33:15.189Z",
+        "updated_at": "2023-10-08T08:15:18.665Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "785ac536-7266-4f7c-b01b-e887ea68e6fc",
+        "amount": 41382,
+        "recharge_date": "2023-10-08T15:04:23.093Z",
+        "recharge_status": "Refunded",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-08T16:47:12.439Z",
+        "updated_at": "2023-10-08T12:09:51.448Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "8b59e2fb-cc67-4c32-a136-16e7f6433275",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T16:09:59.021Z",
+        "updated_at": "2023-10-08T16:33:23.055Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c97b8bc7-3b01-4302-baea-d48e561c7579",
+        "issue_type": "Technical",
+        "issue_description": "No signal",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T22:15:14.312Z",
+        "updated_at": "2023-10-08T16:27:35.641Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff0491b1-66de-4db2-a386-c326613a892f",
+        "issue_type": "Account",
+        "issue_description": "Wrong bill amount",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T10:01:34.024Z",
+        "updated_at": "2023-10-08T07:05:35.672Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15b375d4-ccda-4b23-aaa7-a929d41221e8",
+        "issue_type": "Service",
+        "issue_description": "Service not activated",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T10:12:18.068Z",
+        "updated_at": "2023-10-08T21:57:25.147Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a71a7b75-5057-41fd-b415-4dd11775afd2",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer support",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T03:51:19.738Z",
+        "updated_at": "2023-10-08T07:49:32.872Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "39f75b6d-5a53-4d5a-92ce-1883aad8fc41",
+        "amount": 81243,
+        "cashback_date": "2023-10-08T03:50:52.700Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T17:45:27.758Z",
+        "updated_at": "2023-10-08T23:13:58.495Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8fb5455-f454-4e7e-a4c7-f589955171d7",
+        "amount": 32853,
+        "cashback_date": "2023-10-08T09:09:00.543Z",
+        "status": "Redeemed",
+        "source": "Bill payment",
+        "created_at": "2023-10-08T06:38:51.679Z",
+        "updated_at": "2023-10-08T06:12:56.882Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b442699-82d4-4b44-87d3-757704ecab84",
+        "amount": 92688,
+        "cashback_date": "2023-10-08T08:31:22.850Z",
+        "status": "Expired",
+        "source": "Recharge",
+        "created_at": "2023-10-08T04:58:38.444Z",
+        "updated_at": "2023-10-08T12:39:13.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd87085a-c173-4625-a979-b1d92fb47a5b",
+        "amount": 53175,
+        "cashback_date": "2023-10-08T21:17:01.587Z",
+        "status": "Pending",
+        "source": "Referral",
+        "created_at": "2023-10-08T12:28:58.435Z",
+        "updated_at": "2023-10-08T04:52:00.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8132c5a3-b85f-4fce-8e5c-40371913d6b0",
+        "amount": 60874,
+        "cashback_date": "2023-10-08T17:41:26.692Z",
+        "status": "Cancelled",
+        "source": "Promotion",
+        "created_at": "2023-10-08T08:32:21.972Z",
+        "updated_at": "2023-10-09T03:02:12.562Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "1d007ff7-2c50-43ff-a350-bc59f079f4a4",
+        "amount": 19201,
+        "payment_date": "2023-10-08T22:56:44.592Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-09T03:13:20.837Z",
+        "updated_at": "2023-10-08T18:12:19.026Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79c4ed06-9c8e-41b5-a9e0-1acf987ab8d6",
+        "amount": 43246,
+        "payment_date": "2023-10-08T08:27:28.294Z",
+        "payment_status": "Pending",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T10:52:31.622Z",
+        "updated_at": "2023-10-08T06:40:06.262Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61087bf6-e29a-434d-a6ed-e81f16dd53a0",
+        "amount": 67190,
+        "payment_date": "2023-10-08T20:09:10.885Z",
+        "payment_status": "Failed",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T09:18:03.754Z",
+        "updated_at": "2023-10-08T22:09:37.197Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fde08dc2-6c8e-443d-aa90-395a16d70a07",
+        "amount": 1395,
+        "payment_date": "2023-10-08T17:06:26.702Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T09:16:53.626Z",
+        "updated_at": "2023-10-08T07:14:20.556Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ecde12f-29d2-451a-ae6a-7bec4312f6f2",
+        "amount": 14412,
+        "payment_date": "2023-10-08T12:17:19.433Z",
+        "payment_status": "Refunded",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-08T21:49:21.853Z",
+        "updated_at": "2023-10-08T09:43:02.684Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b2c72a4b-24e8-4589-8756-73c580d038ca",
+        "email": "Abigail_Gulgowski@roq.tech",
+        "firstName": "Karianne",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65672428",
+        "tenantId": null
+      },
+      {
+        "reference": "76b96941-cd8f-4e58-94c6-f0181211ffe3",
+        "email": "Ursula19@roq.tech",
+        "firstName": "Carlie",
+        "lastName": "Harvey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/500.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d7180902-25f1-4f10-9b49-e73a5457ae81",
+        "email": "Rodolfo_Williamson48@roq.tech",
+        "firstName": "Alfredo",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67816616",
+        "tenantId": null
+      },
+      {
+        "reference": "1964378b-62cb-4e8b-9c39-795b6f6bfdaf",
+        "email": "Scot_Schmitt77@roq.tech",
+        "firstName": "Deven",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25709183",
+        "tenantId": null
+      },
+      {
+        "reference": "317a333d-f6c2-4244-8ad5-9c51afca09d5",
+        "email": "Green.Gorczany18@roq.tech",
+        "firstName": "Durward",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/301.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "ebfbefaf-fc5f-46b7-983d-ecc6bf5f2204",
+        "amount": 11674,
+        "recharge_date": "2023-10-08T04:08:25.931Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T04:14:08.321Z",
+        "updated_at": "2023-10-08T12:00:03.005Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2e7db0b-6d67-48f8-9d3f-3c07807222dc",
+        "amount": 67737,
+        "recharge_date": "2023-10-08T03:40:10.868Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-09T01:58:28.695Z",
+        "updated_at": "2023-10-08T22:01:27.847Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39a92838-87ef-4f9a-91fd-22a7de54f65d",
+        "amount": 92838,
+        "recharge_date": "2023-10-08T13:48:41.575Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T09:07:36.914Z",
+        "updated_at": "2023-10-08T05:19:24.098Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3980fa21-0213-4b05-a39f-90fc87dec13b",
+        "amount": 39490,
+        "recharge_date": "2023-10-08T14:37:38.287Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-09T00:51:51.271Z",
+        "updated_at": "2023-10-09T02:26:41.734Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baee3f8d-0e4e-4bd2-bc04-d4a1a32d881f",
+        "amount": 38133,
+        "recharge_date": "2023-10-08T09:10:44.064Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-08T06:20:40.126Z",
+        "updated_at": "2023-10-08T23:28:04.210Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "b3709e5e-cdb7-4fb6-8e4d-d682e9b45504",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T05:54:29.660Z",
+        "updated_at": "2023-10-08T13:20:56.300Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c7f0979-9877-4115-9805-22ccf5ebc293",
+        "issue_type": "Technical",
+        "issue_description": "Incorrect bill amount",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T10:29:26.074Z",
+        "updated_at": "2023-10-08T20:17:50.494Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74398673-7fb3-4d31-a0e9-8c8454aa681d",
+        "issue_type": "Account",
+        "issue_description": "Unable to login",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T09:33:11.864Z",
+        "updated_at": "2023-10-08T12:29:04.107Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d003187a-6275-4aa8-aca3-24bd2315c033",
+        "issue_type": "Service",
+        "issue_description": "No signal",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T12:09:42.714Z",
+        "updated_at": "2023-10-08T20:13:42.728Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d5e05825-ecb6-4a95-bf74-53f3e45fa579",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer support",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T04:12:09.043Z",
+        "updated_at": "2023-10-08T07:30:59.284Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "ab56cdc9-eb16-4423-b9d7-1734caf8d9c6",
+        "amount": 31278,
+        "cashback_date": "2023-10-08T07:12:20.679Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T07:17:47.420Z",
+        "updated_at": "2023-10-08T08:02:35.176Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ea44ff6-e9e3-48d3-a762-135afa3c6ce1",
+        "amount": 17068,
+        "cashback_date": "2023-10-08T20:11:56.871Z",
+        "status": "Redeemed",
+        "source": "Bill payment",
+        "created_at": "2023-10-08T17:05:38.219Z",
+        "updated_at": "2023-10-08T04:05:30.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b78309a0-e9ff-45ed-94e6-18645fde3722",
+        "amount": 14170,
+        "cashback_date": "2023-10-08T06:16:29.848Z",
+        "status": "Expired",
+        "source": "Recharge",
+        "created_at": "2023-10-08T23:14:09.401Z",
+        "updated_at": "2023-10-08T09:11:01.303Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "059555cd-a272-439a-a30d-3d28739c6d3d",
+        "amount": 21726,
+        "cashback_date": "2023-10-08T15:16:31.473Z",
+        "status": "Pending",
+        "source": "Referral",
+        "created_at": "2023-10-08T11:10:11.261Z",
+        "updated_at": "2023-10-08T21:58:37.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc90b47-1938-49c2-a818-bf4af44a17ae",
+        "amount": 25591,
+        "cashback_date": "2023-10-09T00:40:59.273Z",
+        "status": "Cancelled",
+        "source": "Promotion",
+        "created_at": "2023-10-09T01:56:19.488Z",
+        "updated_at": "2023-10-08T20:47:38.185Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "65faf0e0-1d7d-461e-ba03-6680d8889d17",
+        "amount": 81695,
+        "payment_date": "2023-10-08T22:21:39.744Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T12:12:39.740Z",
+        "updated_at": "2023-10-08T16:51:55.509Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13079068-5108-44fb-b51c-df21f520a240",
+        "amount": 47948,
+        "payment_date": "2023-10-08T23:13:40.396Z",
+        "payment_status": "Unpaid",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T09:54:42.072Z",
+        "updated_at": "2023-10-08T19:01:25.822Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74495260-7e47-4734-920d-d3a8252402b2",
+        "amount": 7321,
+        "payment_date": "2023-10-08T13:20:25.086Z",
+        "payment_status": "Pending",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T06:52:01.417Z",
+        "updated_at": "2023-10-08T12:39:39.989Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "360f3465-5b67-44fb-b220-6f8065b0221e",
+        "amount": 61202,
+        "payment_date": "2023-10-08T22:14:28.224Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-08T16:36:12.231Z",
+        "updated_at": "2023-10-09T00:19:17.317Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5a42a1c8-bb28-4f2d-be0e-c4aa29a310e4",
+        "amount": 81689,
+        "payment_date": "2023-10-08T13:00:25.440Z",
+        "payment_status": "Failed",
+        "bill_type": "Credit Card",
+        "created_at": "2023-10-08T21:11:35.339Z",
+        "updated_at": "2023-10-09T01:46:40.032Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7224f795-b42d-47aa-a65b-ef19b52a8816",
+        "email": "Jaida_Goldner@roq.tech",
+        "firstName": "Jason",
+        "lastName": "Konopelski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1030.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "02723d43-a233-42f4-a7c8-3fdc11713d6c",
+        "email": "Jennyfer_Monahan@roq.tech",
+        "firstName": "Spencer",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/469.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d2ed0a3b-0ad4-4986-9996-770d957645cf",
+        "email": "Enid73@roq.tech",
+        "firstName": "Gust",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60800980",
+        "tenantId": null
+      },
+      {
+        "reference": "4179e942-12e5-41b1-80d9-9da276b4aeec",
+        "email": "Timmy57@roq.tech",
+        "firstName": "Ilene",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87019957",
+        "tenantId": null
+      },
+      {
+        "reference": "6902bf40-3dc8-4d42-86c5-f537cfbf4e3a",
+        "email": "Alayna81@roq.tech",
+        "firstName": "Kirstin",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95526320",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "971c8d7f-8558-48fa-96dd-728fdc6cbf78",
+        "amount": 42468,
+        "recharge_date": "2023-10-08T04:20:36.078Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-09T01:11:18.385Z",
+        "updated_at": "2023-10-08T23:56:44.019Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efcaa55a-fdd9-4700-b971-84968334044f",
+        "amount": 56182,
+        "recharge_date": "2023-10-08T05:45:48.709Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-08T12:31:32.776Z",
+        "updated_at": "2023-10-08T07:49:46.513Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "068a23d2-e1e3-4663-8662-7dfd5f885d56",
+        "amount": 25746,
+        "recharge_date": "2023-10-08T18:04:39.221Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T21:35:26.214Z",
+        "updated_at": "2023-10-08T10:50:29.994Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eb35cd96-f497-4daa-a684-96b860d72676",
+        "amount": 20593,
+        "recharge_date": "2023-10-08T14:29:05.220Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T10:40:28.951Z",
+        "updated_at": "2023-10-08T23:01:59.701Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d5b7785-4c41-4080-98e8-b9c7b5949432",
+        "amount": 14669,
+        "recharge_date": "2023-10-08T08:24:55.483Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-08T10:23:41.456Z",
+        "updated_at": "2023-10-08T09:17:16.778Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "c80772f6-fbc7-4e62-8851-7bc888515c41",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T21:38:46.518Z",
+        "updated_at": "2023-10-08T06:51:53.192Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "445aee82-f70f-41c6-9ba1-8059a2996c94",
+        "issue_type": "Technical",
+        "issue_description": "No signal",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T20:16:34.746Z",
+        "updated_at": "2023-10-08T09:27:44.233Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7320fbe-2589-4127-9c3a-35eda363f7ec",
+        "issue_type": "Account",
+        "issue_description": "Wrong bill amount",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T16:32:11.163Z",
+        "updated_at": "2023-10-09T00:49:17.561Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b5a12eaa-162d-4b25-9ae7-fa68e05d7042",
+        "issue_type": "Service",
+        "issue_description": "Disconnection without notice",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T08:57:37.597Z",
+        "updated_at": "2023-10-08T09:28:03.547Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97558653-35a7-409e-a554-e1bd3ed52012",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer support",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T10:56:00.330Z",
+        "updated_at": "2023-10-08T17:52:02.120Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "b4b82310-caa8-43ff-8859-d840e4ed2bb4",
+        "amount": 78266,
+        "cashback_date": "2023-10-08T05:46:27.072Z",
+        "status": "Available",
+        "source": "Online Shopping",
+        "created_at": "2023-10-08T09:49:22.974Z",
+        "updated_at": "2023-10-08T09:36:09.684Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48acc1d9-5830-497e-b730-2c260e590e46",
+        "amount": 31675,
+        "cashback_date": "2023-10-08T06:34:26.777Z",
+        "status": "Redeemed",
+        "source": "Mobile Recharge",
+        "created_at": "2023-10-08T19:33:24.435Z",
+        "updated_at": "2023-10-08T11:36:44.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d6cfd76-02ce-4aef-9505-4a6d345ac75b",
+        "amount": 77324,
+        "cashback_date": "2023-10-08T20:11:30.832Z",
+        "status": "Expired",
+        "source": "Bill Payment",
+        "created_at": "2023-10-08T19:39:18.238Z",
+        "updated_at": "2023-10-08T09:52:15.583Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a553f061-8a03-46ed-af85-9329323d9819",
+        "amount": 95259,
+        "cashback_date": "2023-10-08T14:14:51.876Z",
+        "status": "Pending",
+        "source": "Flight Booking",
+        "created_at": "2023-10-08T19:30:31.776Z",
+        "updated_at": "2023-10-08T19:34:13.915Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "194a88ab-e588-44e1-b488-ac076142484c",
+        "amount": 73534,
+        "cashback_date": "2023-10-08T12:28:19.922Z",
+        "status": "Unused",
+        "source": "Hotel Reservation",
+        "created_at": "2023-10-09T01:09:02.901Z",
+        "updated_at": "2023-10-08T22:27:54.919Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "43f6a394-491e-4ba8-bf11-c850fa0c7e1e",
+        "amount": 12918,
+        "payment_date": "2023-10-08T20:29:14.068Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T22:12:41.325Z",
+        "updated_at": "2023-10-09T00:12:31.301Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "097bd161-7177-4026-9bba-fee956fdfb55",
+        "amount": 91035,
+        "payment_date": "2023-10-09T01:30:39.792Z",
+        "payment_status": "Pending",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T22:40:25.587Z",
+        "updated_at": "2023-10-08T17:21:19.138Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47867c3d-39da-40bb-8428-33682c7cb01f",
+        "amount": 41428,
+        "payment_date": "2023-10-08T10:05:54.200Z",
+        "payment_status": "Failed",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T22:49:59.011Z",
+        "updated_at": "2023-10-08T12:01:43.453Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72e33268-6939-4f06-8b4f-09e4998e9e49",
+        "amount": 6798,
+        "payment_date": "2023-10-08T16:54:51.045Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T23:49:39.257Z",
+        "updated_at": "2023-10-08T04:56:50.379Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "70b8c14e-8cdb-43a9-aa43-ec120dce57ae",
+        "amount": 4639,
+        "payment_date": "2023-10-08T16:10:16.966Z",
+        "payment_status": "Refunded",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-08T10:57:01.598Z",
+        "updated_at": "2023-10-08T17:57:27.068Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "705dd9e9-272c-4ab0-9a49-bece5d9e86be",
+        "email": "Nicholas_Sipes@roq.tech",
+        "firstName": "Kenyon",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fd8d10d6-6879-4f41-a4a2-74b269bf661b",
+        "email": "Jewel_Kshlerin@roq.tech",
+        "firstName": "Herminia",
+        "lastName": "Yost",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90801681",
+        "tenantId": null
+      },
+      {
+        "reference": "7a2f5d51-074d-4441-ba58-845021571ce0",
+        "email": "Jaydon.Franey@roq.tech",
+        "firstName": "Barbara",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1188.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a44eabb-31ea-4576-8952-a1887bcb3c59",
+        "email": "Jordon_Morar@roq.tech",
+        "firstName": "Vernie",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69719935",
+        "tenantId": null
+      },
+      {
+        "reference": "74258c33-683e-4a81-bad6-88eca3670bfd",
+        "email": "Eddie_Schowalter@roq.tech",
+        "firstName": "Margaret",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88138776",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "f5f76499-1da7-42f1-af77-e9c15d1be47e",
+        "amount": 65975,
+        "recharge_date": "2023-10-08T13:03:32.046Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T11:04:47.431Z",
+        "updated_at": "2023-10-08T04:16:37.758Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e031baa6-8cf1-435c-80fb-4fd401f20f68",
+        "amount": 75734,
+        "recharge_date": "2023-10-08T07:48:09.796Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-09T02:47:34.981Z",
+        "updated_at": "2023-10-08T03:51:25.641Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4efc429-dafb-47a5-8abd-15e1925bb66d",
+        "amount": 67397,
+        "recharge_date": "2023-10-08T15:32:31.414Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T14:12:54.724Z",
+        "updated_at": "2023-10-08T20:35:27.492Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "081cbb10-5c85-4cce-be19-79f27617623c",
+        "amount": 95610,
+        "recharge_date": "2023-10-09T03:14:10.966Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T05:05:05.892Z",
+        "updated_at": "2023-10-08T08:44:13.297Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b896b7e-1423-47c5-b671-1d72ebefa111",
+        "amount": 98753,
+        "recharge_date": "2023-10-08T11:42:29.715Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-08T22:07:53.096Z",
+        "updated_at": "2023-10-08T11:16:04.131Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "de6ec077-fd36-40ae-b3e4-b59a3b53c807",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T14:26:02.421Z",
+        "updated_at": "2023-10-08T15:03:42.088Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb50b8e1-fc7c-46e0-8c2a-e6e2ccd0a12f",
+        "issue_type": "Technical",
+        "issue_description": "Incorrect bill amount",
+        "issue_status": "Closed",
+        "created_at": "2023-10-09T03:31:15.471Z",
+        "updated_at": "2023-10-08T23:08:04.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4171288e-c2d2-4469-8050-486510c01e8d",
+        "issue_type": "Account",
+        "issue_description": "Unable to make calls",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T23:19:32.052Z",
+        "updated_at": "2023-10-08T23:56:28.754Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24f425c5-a56d-4ff5-9fd0-ad6beeefdcf8",
+        "issue_type": "Service",
+        "issue_description": "No signal reception",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T12:24:15.346Z",
+        "updated_at": "2023-10-08T19:26:17.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41838370-60ed-4cb7-83e9-85bd924f114c",
+        "issue_type": "Complaint",
+        "issue_description": "Delayed service installation",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T06:52:07.720Z",
+        "updated_at": "2023-10-08T05:43:03.032Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "505f3e51-d7a0-4322-a222-d09d4ed20d8b",
+        "amount": 86396,
+        "cashback_date": "2023-10-08T18:23:16.602Z",
+        "status": "Available",
+        "source": "Online Shopping",
+        "created_at": "2023-10-08T10:55:22.262Z",
+        "updated_at": "2023-10-08T06:22:30.489Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fccb32fb-b4c0-4b3c-a088-325bc3d9858a",
+        "amount": 85112,
+        "cashback_date": "2023-10-08T23:06:31.505Z",
+        "status": "Redeemed",
+        "source": "Mobile Recharge",
+        "created_at": "2023-10-08T14:55:26.557Z",
+        "updated_at": "2023-10-08T12:07:49.326Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1f364e0-4b3c-43dd-b46c-8a14a3e3feba",
+        "amount": 69956,
+        "cashback_date": "2023-10-08T12:32:16.927Z",
+        "status": "Expired",
+        "source": "Bill Payment",
+        "created_at": "2023-10-08T14:09:44.200Z",
+        "updated_at": "2023-10-08T16:29:21.693Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a909c62-0a25-4a58-8bed-c177c1b44cd1",
+        "amount": 50849,
+        "cashback_date": "2023-10-08T11:40:42.854Z",
+        "status": "Pending",
+        "source": "Travel Booking",
+        "created_at": "2023-10-08T11:38:30.710Z",
+        "updated_at": "2023-10-08T04:53:42.825Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10d92679-c122-4855-8473-35009f102580",
+        "amount": 21762,
+        "cashback_date": "2023-10-08T15:23:18.971Z",
+        "status": "Cancelled",
+        "source": "Food Delivery",
+        "created_at": "2023-10-08T19:22:11.034Z",
+        "updated_at": "2023-10-08T08:25:01.404Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "d25a4ae1-c728-4bff-a87b-f76b4a3a2ede",
+        "amount": 74323,
+        "payment_date": "2023-10-09T01:41:20.073Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T18:59:53.259Z",
+        "updated_at": "2023-10-08T12:52:23.460Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73d6ac80-d8c4-40bf-b756-cc35b239a5a5",
+        "amount": 85743,
+        "payment_date": "2023-10-08T14:21:57.791Z",
+        "payment_status": "Pending",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T12:47:24.195Z",
+        "updated_at": "2023-10-08T22:56:38.971Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3d3c563-f377-44ed-9409-504a3d29a1be",
+        "amount": 36567,
+        "payment_date": "2023-10-09T02:29:07.422Z",
+        "payment_status": "Failed",
+        "bill_type": "Internet",
+        "created_at": "2023-10-09T00:00:49.008Z",
+        "updated_at": "2023-10-08T22:15:43.938Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "420fc004-6293-4404-a8f8-682714b26456",
+        "amount": 75947,
+        "payment_date": "2023-10-08T17:43:37.731Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-09T02:56:34.410Z",
+        "updated_at": "2023-10-08T20:32:49.972Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39fbbb37-f801-4dca-b6df-8a63df56462a",
+        "amount": 5822,
+        "payment_date": "2023-10-08T16:54:17.878Z",
+        "payment_status": "Refunded",
+        "bill_type": "Credit Card",
+        "created_at": "2023-10-09T03:11:07.606Z",
+        "updated_at": "2023-10-08T16:45:56.189Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c747012-d7cf-4dce-a378-2c5ac6be020f",
+        "email": "Rosamond.Torphy73@roq.tech",
+        "firstName": "Alexa",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1028.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a726e60-55e3-408d-9e23-0d53ab9f5dce",
+        "email": "Amely.Prohaska11@roq.tech",
+        "firstName": "London",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/772.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b5f17ac-8424-4c32-81b7-dc7bc960d9ca",
+        "email": "Hilario17@roq.tech",
+        "firstName": "Sunny",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65887951",
+        "tenantId": null
+      },
+      {
+        "reference": "9f8d1057-2beb-40f8-8370-7a1e05bc7589",
+        "email": "Alva72@roq.tech",
+        "firstName": "Sienna",
+        "lastName": "Leuschke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10180450",
+        "tenantId": null
+      },
+      {
+        "reference": "b0ce093c-1703-484b-9bce-e426989a786a",
+        "email": "Katlynn21@roq.tech",
+        "firstName": "Linwood",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8740390",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "f8be27bb-cd09-4676-852b-16c1b0446fee",
+        "amount": 74348,
+        "recharge_date": "2023-10-08T11:53:23.842Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T15:03:58.298Z",
+        "updated_at": "2023-10-08T14:24:56.578Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64b7536-c154-4d93-859e-ffe74d47b37d",
+        "amount": 54213,
+        "recharge_date": "2023-10-08T17:56:20.456Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-08T06:19:04.713Z",
+        "updated_at": "2023-10-08T15:05:24.252Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06c7610c-14bb-47d3-80c0-de9d049624c3",
+        "amount": 16662,
+        "recharge_date": "2023-10-08T20:22:04.212Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T15:52:24.260Z",
+        "updated_at": "2023-10-08T12:00:16.870Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d1adf433-2edb-45a7-9bd7-ba54167653ff",
+        "amount": 8554,
+        "recharge_date": "2023-10-08T15:58:38.834Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T21:05:17.870Z",
+        "updated_at": "2023-10-09T01:41:26.839Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38aa691-3d7a-48e1-9b45-d5c219866ce0",
+        "amount": 68462,
+        "recharge_date": "2023-10-08T05:21:22.260Z",
+        "recharge_status": "Refunded",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-08T20:42:54.095Z",
+        "updated_at": "2023-10-08T14:02:39.329Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "9ecfca23-1962-47ed-acdd-ea9b143593d0",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T18:14:32.065Z",
+        "updated_at": "2023-10-08T18:22:08.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a577559f-39f6-4dc7-a224-8d5c4591c963",
+        "issue_type": "Technical",
+        "issue_description": "Billing discrepancy",
+        "issue_status": "Closed",
+        "created_at": "2023-10-09T00:54:25.211Z",
+        "updated_at": "2023-10-08T15:15:53.722Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "93c14864-551c-46ed-bbee-6b435f77f576",
+        "issue_type": "Account",
+        "issue_description": "Cannot login to account",
+        "issue_status": "Pending",
+        "created_at": "2023-10-09T02:22:53.857Z",
+        "updated_at": "2023-10-08T10:23:37.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "088ec4bd-3a14-4220-8e95-5dc2250296e1",
+        "issue_type": "Service",
+        "issue_description": "No service at home",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T16:08:38.292Z",
+        "updated_at": "2023-10-08T22:32:47.856Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64e7ff42-4ef2-4c31-8d11-04d363feae75",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer service",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T19:30:05.321Z",
+        "updated_at": "2023-10-08T14:39:55.390Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "d9c43392-7d5f-4677-b8a5-b6d8b7abbdab",
+        "amount": 2737,
+        "cashback_date": "2023-10-08T09:45:37.941Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T16:50:06.065Z",
+        "updated_at": "2023-10-08T19:39:14.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40fd1da1-24a2-44a0-a042-1bd677a69938",
+        "amount": 2959,
+        "cashback_date": "2023-10-08T09:37:27.735Z",
+        "status": "Redeemed",
+        "source": "In-store purchase",
+        "created_at": "2023-10-09T02:36:30.050Z",
+        "updated_at": "2023-10-09T02:23:50.328Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3c1bb74-2f22-41b0-b375-01e2918c3ec9",
+        "amount": 41344,
+        "cashback_date": "2023-10-08T15:16:47.738Z",
+        "status": "Expired",
+        "source": "Mobile app transaction",
+        "created_at": "2023-10-08T06:57:18.442Z",
+        "updated_at": "2023-10-08T23:09:31.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8fd6b83-c7cc-4588-be62-f51e34611bb7",
+        "amount": 22195,
+        "cashback_date": "2023-10-08T16:05:57.081Z",
+        "status": "Pending",
+        "source": "Referral",
+        "created_at": "2023-10-08T11:55:49.736Z",
+        "updated_at": "2023-10-08T19:43:35.358Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f5c101a-21af-48d7-8dc8-3f6e332c4622",
+        "amount": 61626,
+        "cashback_date": "2023-10-08T21:34:27.673Z",
+        "status": "Cancelled",
+        "source": "Promotion",
+        "created_at": "2023-10-08T10:19:36.824Z",
+        "updated_at": "2023-10-08T03:40:08.630Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "4c83bdcd-4417-4a9b-a3e2-7d780f064231",
+        "amount": 29372,
+        "payment_date": "2023-10-08T05:21:49.826Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T16:37:39.574Z",
+        "updated_at": "2023-10-08T21:35:26.246Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77bfba36-5dee-44ab-9958-d17344e80404",
+        "amount": 93316,
+        "payment_date": "2023-10-08T09:28:05.176Z",
+        "payment_status": "Unpaid",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T15:04:47.636Z",
+        "updated_at": "2023-10-08T17:29:57.040Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dd4a2cb5-a6a2-422c-adc5-246b26b4aaf8",
+        "amount": 82999,
+        "payment_date": "2023-10-08T09:06:12.044Z",
+        "payment_status": "Pending",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T14:38:25.325Z",
+        "updated_at": "2023-10-08T09:53:49.583Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8400f50e-764c-456a-868f-f308e33a5318",
+        "amount": 95710,
+        "payment_date": "2023-10-08T15:00:38.115Z",
+        "payment_status": "Overdue",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T06:40:20.402Z",
+        "updated_at": "2023-10-08T14:05:20.315Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b13f14e-7f88-408c-a91b-891000cd7cba",
+        "amount": 51920,
+        "payment_date": "2023-10-08T12:49:54.959Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Phone",
+        "created_at": "2023-10-08T12:21:16.815Z",
+        "updated_at": "2023-10-08T11:32:13.591Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6312efb9-f400-4f8c-992a-c6784624b502",
+        "email": "Lilian.OReilly@roq.tech",
+        "firstName": "Rozella",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50313158",
+        "tenantId": null
+      },
+      {
+        "reference": "dc1755bb-8961-48d5-96e5-f5ae5d520d6f",
+        "email": "Ethel_Jaskolski@roq.tech",
+        "firstName": "Gia",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/885.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d8c82fbd-dc47-4a41-9dbf-2753f59f948b",
+        "email": "Flossie68@roq.tech",
+        "firstName": "Athena",
+        "lastName": "Kuphal",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30548906",
+        "tenantId": null
+      },
+      {
+        "reference": "6a16ea3e-7c25-4b3a-8d48-65f3e6eea6a6",
+        "email": "Mohammed50@roq.tech",
+        "firstName": "Wilmer",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19510775",
+        "tenantId": null
+      },
+      {
+        "reference": "4e74d4a4-d7a5-4d89-9949-0ab1eb7d8504",
+        "email": "Christy.Sporer65@roq.tech",
+        "firstName": "Willa",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "138761fc-4bdb-4c1f-950b-b4f7b2230b3a",
+        "amount": 95206,
+        "recharge_date": "2023-10-08T22:19:21.475Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Prepaid",
+        "created_at": "2023-10-08T23:37:41.780Z",
+        "updated_at": "2023-10-08T06:14:55.716Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25a5e610-03f4-419c-80a1-3921160f58cb",
+        "amount": 33791,
+        "recharge_date": "2023-10-08T18:59:20.043Z",
+        "recharge_status": "Failed",
+        "recharge_type": "Postpaid",
+        "created_at": "2023-10-08T13:45:38.456Z",
+        "updated_at": "2023-10-09T02:52:43.540Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19a2d793-70d2-4255-b369-e18dc8e91d60",
+        "amount": 74639,
+        "recharge_date": "2023-10-08T08:45:27.135Z",
+        "recharge_status": "Pending",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-09T00:37:33.841Z",
+        "updated_at": "2023-10-08T18:54:40.391Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c58d1a15-bff8-41b2-a385-6859a5d61ad4",
+        "amount": 23587,
+        "recharge_date": "2023-10-08T10:40:06.559Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-09T01:16:51.356Z",
+        "updated_at": "2023-10-08T11:36:57.285Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2edbe45e-8b00-4970-9976-7295033800eb",
+        "amount": 19330,
+        "recharge_date": "2023-10-08T15:07:20.939Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T19:15:24.102Z",
+        "updated_at": "2023-10-08T14:47:17.703Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "416d413a-928e-417b-8331-20d2eaf9e1f7",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T13:59:25.367Z",
+        "updated_at": "2023-10-08T19:39:24.028Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "110b101d-bc24-47b2-9520-6771b79931d4",
+        "issue_type": "Technical",
+        "issue_description": "No network coverage",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T20:33:04.560Z",
+        "updated_at": "2023-10-08T11:52:47.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06964962-bfef-48a8-9df9-c9a5a5b2dbeb",
+        "issue_type": "Account",
+        "issue_description": "Billing discrepancy",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T04:43:26.097Z",
+        "updated_at": "2023-10-08T18:35:35.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac9a903a-8bd7-4f7e-9827-2a3948a435e4",
+        "issue_type": "Service",
+        "issue_description": "Account login issue",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T11:59:06.288Z",
+        "updated_at": "2023-10-08T06:09:15.214Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9908923-eb81-4960-aed6-4a78f949e68f",
+        "issue_type": "Complaint",
+        "issue_description": "Poor customer service",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T10:05:13.241Z",
+        "updated_at": "2023-10-08T19:41:20.122Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "9aa00138-b544-4da8-8a66-6f5d24999920",
+        "amount": 36123,
+        "cashback_date": "2023-10-08T15:03:22.823Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T19:29:39.161Z",
+        "updated_at": "2023-10-09T03:34:08.131Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8ee4603-cebd-45c3-91c5-f3803850cc76",
+        "amount": 88382,
+        "cashback_date": "2023-10-08T21:59:34.458Z",
+        "status": "Redeemed",
+        "source": "Mobile recharge",
+        "created_at": "2023-10-09T01:28:15.972Z",
+        "updated_at": "2023-10-08T04:11:38.627Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00843ae6-6157-45c1-8c66-0dd58e8cbb95",
+        "amount": 87970,
+        "cashback_date": "2023-10-08T10:58:14.141Z",
+        "status": "Expired",
+        "source": "Bill payment",
+        "created_at": "2023-10-09T02:55:32.727Z",
+        "updated_at": "2023-10-08T17:45:44.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f7a0cd4-13a7-4183-b0c8-ddad1c12bef0",
+        "amount": 85777,
+        "cashback_date": "2023-10-08T22:29:19.504Z",
+        "status": "Pending",
+        "source": "DTH recharge",
+        "created_at": "2023-10-09T03:20:25.355Z",
+        "updated_at": "2023-10-08T13:59:46.501Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "50a70f06-4575-49c8-a5ad-8f7737fe776c",
+        "amount": 45331,
+        "cashback_date": "2023-10-08T15:52:26.621Z",
+        "status": "Unused",
+        "source": "Flight booking",
+        "created_at": "2023-10-09T02:39:46.102Z",
+        "updated_at": "2023-10-08T08:20:09.366Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "4de57084-7995-4eb7-9638-3f72585fd0e3",
+        "amount": 27690,
+        "payment_date": "2023-10-09T02:28:02.600Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T11:04:45.201Z",
+        "updated_at": "2023-10-08T16:20:32.603Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c724eaf6-e3b6-41eb-90cf-69ca12ca7903",
+        "amount": 37080,
+        "payment_date": "2023-10-09T02:46:18.403Z",
+        "payment_status": "Unpaid",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T11:27:46.451Z",
+        "updated_at": "2023-10-09T01:48:19.326Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b407283-c13e-4fe7-9a3c-bafc5b1dd23f",
+        "amount": 27426,
+        "payment_date": "2023-10-08T23:36:23.532Z",
+        "payment_status": "Pending",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T11:53:47.723Z",
+        "updated_at": "2023-10-08T04:01:44.751Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36333944-b234-40d5-b692-409f5debb471",
+        "amount": 50047,
+        "payment_date": "2023-10-08T19:24:01.720Z",
+        "payment_status": "Overdue",
+        "bill_type": "Phone",
+        "created_at": "2023-10-08T22:25:31.910Z",
+        "updated_at": "2023-10-08T17:57:18.396Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bb04b07-0d77-4d92-8b20-bfb8b4db4455",
+        "amount": 12258,
+        "payment_date": "2023-10-08T10:02:18.483Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T04:25:17.803Z",
+        "updated_at": "2023-10-08T04:05:07.731Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c17810ef-a45a-400e-971b-15f87ce53b76",
+        "email": "Neal_Wiza@roq.tech",
+        "firstName": "Lavonne",
+        "lastName": "Shanahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/821707",
+        "tenantId": null
+      },
+      {
+        "reference": "b1721b41-d46d-4d1d-9d80-eda199cf236d",
+        "email": "Reggie_Spencer@roq.tech",
+        "firstName": "Dave",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/682.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7522fd37-27d0-4e23-a5f2-6b536d7d0466",
+        "email": "Phyllis.Heidenreich@roq.tech",
+        "firstName": "Caitlyn",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14773661",
+        "tenantId": null
+      },
+      {
+        "reference": "5758c95d-623f-4c31-b041-f373d3520299",
+        "email": "Darlene23@roq.tech",
+        "firstName": "Guillermo",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22865920",
+        "tenantId": null
+      },
+      {
+        "reference": "ab12de41-b30e-4d74-ab3a-d544d17e1283",
+        "email": "Akeem.Weber25@roq.tech",
+        "firstName": "Jackson",
+        "lastName": "Roberts",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/916.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "508d8d9f-572c-4fd7-89c4-d96fa7818bcd",
+        "amount": 11238,
+        "recharge_date": "2023-10-08T21:37:58.116Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T09:00:37.985Z",
+        "updated_at": "2023-10-08T19:46:11.578Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1dbc7aa4-353e-4a40-a2d0-a45755b2cd44",
+        "amount": 21488,
+        "recharge_date": "2023-10-08T10:14:59.090Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-08T18:27:57.028Z",
+        "updated_at": "2023-10-08T10:01:40.723Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14f26aba-2ee6-4ca9-a2e7-87129f431ba9",
+        "amount": 20216,
+        "recharge_date": "2023-10-08T21:12:36.612Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T20:21:33.818Z",
+        "updated_at": "2023-10-08T06:26:37.634Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65e1e2c0-65d4-4f62-9d85-ced6e723c966",
+        "amount": 24260,
+        "recharge_date": "2023-10-08T20:00:55.196Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Metro Card",
+        "created_at": "2023-10-08T05:11:28.300Z",
+        "updated_at": "2023-10-08T10:33:45.770Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9629a5cd-44b9-4c33-82e1-e6d2ea71103d",
+        "amount": 95594,
+        "recharge_date": "2023-10-08T13:57:14.136Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T06:35:21.421Z",
+        "updated_at": "2023-10-08T18:30:30.656Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "89c7ac3a-68ce-4c59-906a-b641231fe2f1",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T14:38:42.708Z",
+        "updated_at": "2023-10-08T06:25:36.258Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27fa780b-82c8-403c-b0a9-d41cc14f38c7",
+        "issue_type": "Technical",
+        "issue_description": "Power outage",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T22:25:40.497Z",
+        "updated_at": "2023-10-08T10:06:12.900Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94405c79-77f6-4ec6-9857-84c378ecf199",
+        "issue_type": "Account",
+        "issue_description": "Login problem",
+        "issue_status": "Pending",
+        "created_at": "2023-10-08T09:20:14.548Z",
+        "updated_at": "2023-10-09T02:54:14.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "efc2676c-abf7-411f-855a-53a82139e984",
+        "issue_type": "Service",
+        "issue_description": "No signal",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T23:28:10.720Z",
+        "updated_at": "2023-10-08T16:16:28.496Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0f62844-76fa-49a5-be7b-8a3d28b832f6",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer support",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T20:29:43.682Z",
+        "updated_at": "2023-10-08T06:42:10.478Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "87474685-ad67-4442-9207-0bbf7fd407a9",
+        "amount": 21009,
+        "cashback_date": "2023-10-09T00:20:24.774Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T17:45:54.203Z",
+        "updated_at": "2023-10-08T20:25:36.656Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f3ae583b-0afd-4ec3-90f7-a4ed0a1d5092",
+        "amount": 92169,
+        "cashback_date": "2023-10-08T23:09:11.630Z",
+        "status": "Redeemed",
+        "source": "Mobile recharge",
+        "created_at": "2023-10-08T16:31:08.029Z",
+        "updated_at": "2023-10-09T00:13:25.270Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a71b611-ff3f-4fea-9c1c-931012415657",
+        "amount": 39365,
+        "cashback_date": "2023-10-08T22:54:16.120Z",
+        "status": "Expired",
+        "source": "Bill payment",
+        "created_at": "2023-10-08T06:10:01.697Z",
+        "updated_at": "2023-10-09T02:07:24.156Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6a6fd062-ff3f-4b4f-8526-187bfd9f5c69",
+        "amount": 47671,
+        "cashback_date": "2023-10-08T22:24:38.761Z",
+        "status": "Pending",
+        "source": "Flight booking",
+        "created_at": "2023-10-08T22:27:13.115Z",
+        "updated_at": "2023-10-08T20:07:28.801Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62bda2a7-b9ff-4241-abc4-b733cd4cab58",
+        "amount": 39970,
+        "cashback_date": "2023-10-08T14:36:32.256Z",
+        "status": "Cancelled",
+        "source": "Hotel reservation",
+        "created_at": "2023-10-08T21:46:11.563Z",
+        "updated_at": "2023-10-08T13:54:08.325Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "233cb0b5-8e5a-4f69-bfaa-4b7bd053433c",
+        "amount": 85559,
+        "payment_date": "2023-10-09T02:05:29.481Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T14:27:04.847Z",
+        "updated_at": "2023-10-08T15:07:12.633Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2a3a7a0-b0d9-4256-b3b2-b3930ad66017",
+        "amount": 61011,
+        "payment_date": "2023-10-08T11:39:16.709Z",
+        "payment_status": "Unpaid",
+        "bill_type": "Water",
+        "created_at": "2023-10-09T00:04:51.918Z",
+        "updated_at": "2023-10-09T01:11:27.316Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7dd36e6-2126-48e7-9494-06a992c131e3",
+        "amount": 24891,
+        "payment_date": "2023-10-08T20:38:19.818Z",
+        "payment_status": "Pending",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T12:41:41.617Z",
+        "updated_at": "2023-10-08T04:43:18.095Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48c3cb68-f467-489e-b27b-a4dcb9f3655c",
+        "amount": 33485,
+        "payment_date": "2023-10-08T11:32:21.686Z",
+        "payment_status": "Overdue",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T05:29:09.807Z",
+        "updated_at": "2023-10-08T18:26:29.526Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "998880f7-45c3-4c99-a5b6-dae6bfdc817b",
+        "amount": 54884,
+        "payment_date": "2023-10-08T03:36:26.577Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-09T00:34:48.390Z",
+        "updated_at": "2023-10-08T21:39:27.613Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b2002ed3-6ab1-4425-94c1-0f69d05c5a9c",
+        "email": "Jabari_Abshire73@roq.tech",
+        "firstName": "Aliza",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/688.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f8986667-2778-4978-bd34-e60c750108fd",
+        "email": "Emelia56@roq.tech",
+        "firstName": "Kirsten",
+        "lastName": "McKenzie",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1239.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1705d07-101c-4ca1-871f-87261d15d2e3",
+        "email": "Ezekiel_Veum-Monahan96@roq.tech",
+        "firstName": "Lina",
+        "lastName": "Stracke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/66.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11c23235-d8cc-4c1d-8559-eebd782008c2",
+        "email": "Jailyn_Thompson0@roq.tech",
+        "firstName": "Zula",
+        "lastName": "Rippin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33192973",
+        "tenantId": null
+      },
+      {
+        "reference": "4daaf84a-0cc0-48db-83ff-359c33cb2a20",
+        "email": "Johnathon.Tillman72@roq.tech",
+        "firstName": "Yoshiko",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83908454",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "ce2f554e-12ce-48f2-bfd8-1d3a3f29b371",
+        "amount": 28653,
+        "recharge_date": "2023-10-08T13:52:12.697Z",
+        "recharge_status": "Successful",
+        "recharge_type": "Prepaid",
+        "created_at": "2023-10-08T19:31:37.789Z",
+        "updated_at": "2023-10-08T16:50:31.438Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a703e0f-e00a-486d-baa7-1600a6e5cf39",
+        "amount": 24171,
+        "recharge_date": "2023-10-08T09:43:52.301Z",
+        "recharge_status": "Failed",
+        "recharge_type": "Postpaid",
+        "created_at": "2023-10-08T22:39:04.465Z",
+        "updated_at": "2023-10-08T20:28:34.618Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e38597fd-8c5a-4fd1-bf75-d4ced2a42992",
+        "amount": 2038,
+        "recharge_date": "2023-10-08T17:32:46.786Z",
+        "recharge_status": "Pending",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-09T03:05:32.415Z",
+        "updated_at": "2023-10-08T06:09:11.120Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94b1eb31-f3c5-4fe2-8942-0e81760583f8",
+        "amount": 38919,
+        "recharge_date": "2023-10-08T12:30:48.670Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T12:39:40.444Z",
+        "updated_at": "2023-10-08T20:06:15.275Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "748eb5f4-27fa-47f1-bd0a-8e328bb2f2ae",
+        "amount": 7535,
+        "recharge_date": "2023-10-08T03:53:15.022Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Broadband",
+        "created_at": "2023-10-08T05:48:30.921Z",
+        "updated_at": "2023-10-08T22:45:57.996Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "25fa910b-60b2-49f8-b9be-325820311729",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T14:06:12.677Z",
+        "updated_at": "2023-10-08T11:02:36.958Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b97574ce-6493-419a-bd0f-6a2032822e00",
+        "issue_type": "Technical",
+        "issue_description": "Incorrect bill amount",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T04:31:43.358Z",
+        "updated_at": "2023-10-08T08:24:53.008Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d690c909-8529-4939-8619-64b49f2114ba",
+        "issue_type": "Account",
+        "issue_description": "Unable to make calls",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T16:02:04.301Z",
+        "updated_at": "2023-10-09T02:01:30.743Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2437507-3bc9-45dd-94f0-d1dbf5366bd4",
+        "issue_type": "Service",
+        "issue_description": "No signal",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T08:24:55.532Z",
+        "updated_at": "2023-10-09T01:02:40.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5129dea-105c-4995-97ec-39ddfbf2f70a",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer service",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T23:34:41.936Z",
+        "updated_at": "2023-10-09T01:35:39.327Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "fe83f9d8-2059-4285-8003-784f9d2de484",
+        "amount": 53740,
+        "cashback_date": "2023-10-08T23:26:01.767Z",
+        "status": "Available",
+        "source": "Online shopping",
+        "created_at": "2023-10-08T11:21:28.542Z",
+        "updated_at": "2023-10-08T23:15:16.525Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "938d3455-1709-4863-aedb-1faa221f98bd",
+        "amount": 35600,
+        "cashback_date": "2023-10-09T00:16:56.675Z",
+        "status": "Redeemed",
+        "source": "Mobile recharge",
+        "created_at": "2023-10-08T20:13:48.082Z",
+        "updated_at": "2023-10-08T05:12:58.566Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2d1909c4-f037-4a01-859e-7754e64ba862",
+        "amount": 3267,
+        "cashback_date": "2023-10-08T23:40:27.226Z",
+        "status": "Expired",
+        "source": "Bill payment",
+        "created_at": "2023-10-08T11:51:54.526Z",
+        "updated_at": "2023-10-08T04:01:01.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b61459e7-7e18-4df4-8c38-2dda39e451a9",
+        "amount": 78563,
+        "cashback_date": "2023-10-08T04:04:36.318Z",
+        "status": "Pending",
+        "source": "Flight booking",
+        "created_at": "2023-10-08T22:19:21.211Z",
+        "updated_at": "2023-10-08T17:01:05.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "494232b4-eecf-4cbc-8728-eb9028879bdd",
+        "amount": 14875,
+        "cashback_date": "2023-10-08T12:24:23.630Z",
+        "status": "Unused",
+        "source": "Hotel reservation",
+        "created_at": "2023-10-08T13:39:49.954Z",
+        "updated_at": "2023-10-08T09:38:39.407Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "3e1614c7-94be-4ce1-83f8-68bdd0cf8cc5",
+        "amount": 42445,
+        "payment_date": "2023-10-08T15:04:52.167Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T10:49:22.162Z",
+        "updated_at": "2023-10-08T23:51:21.530Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe4df5b0-b7fb-427a-9ac8-06bf7262bddf",
+        "amount": 14584,
+        "payment_date": "2023-10-08T12:11:26.264Z",
+        "payment_status": "Unpaid",
+        "bill_type": "Water",
+        "created_at": "2023-10-09T02:18:17.915Z",
+        "updated_at": "2023-10-08T21:04:09.044Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37dd9855-44a8-4945-beee-8a5906442430",
+        "amount": 2094,
+        "payment_date": "2023-10-08T14:18:15.518Z",
+        "payment_status": "Pending",
+        "bill_type": "Gas",
+        "created_at": "2023-10-09T02:03:45.079Z",
+        "updated_at": "2023-10-08T03:45:14.454Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b17015fb-a1fa-4f28-b44a-f65d91a25927",
+        "amount": 65619,
+        "payment_date": "2023-10-08T22:49:20.733Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T07:48:50.610Z",
+        "updated_at": "2023-10-08T16:07:05.538Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71d28799-f838-4bac-b348-cd2b0553c61a",
+        "amount": 65316,
+        "payment_date": "2023-10-08T13:55:18.244Z",
+        "payment_status": "Overdue",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-08T15:50:05.602Z",
+        "updated_at": "2023-10-08T11:53:58.728Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8bcac0ef-a0b1-404d-b4ed-fcc155a06f40",
+        "email": "Kassandra_Marvin39@roq.tech",
+        "firstName": "Jonas",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59359373",
+        "tenantId": null
+      },
+      {
+        "reference": "1b0adf62-e2f3-4065-8573-a5b53b8789cd",
+        "email": "Rosina_Harber@roq.tech",
+        "firstName": "Spencer",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ecb38b84-ba11-494e-80a0-17c00a3d52ba",
+        "email": "Martine25@roq.tech",
+        "firstName": "Herman",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10757614",
+        "tenantId": null
+      },
+      {
+        "reference": "1e092a61-b5f4-4712-9431-4aa73df73148",
+        "email": "Jon.Gerhold16@roq.tech",
+        "firstName": "Calista",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/640.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f2a5896-e0c6-4561-9070-0874d69bb92c",
+        "email": "Veda_Miller@roq.tech",
+        "firstName": "Melisa",
+        "lastName": "O'Hara",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94191221",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "recharge": [
+      {
+        "id": "57310926-0d30-457d-a23b-36e3145a4868",
+        "amount": 95500,
+        "recharge_date": "2023-10-08T16:12:16.720Z",
+        "recharge_status": "Success",
+        "recharge_type": "Mobile",
+        "created_at": "2023-10-08T20:18:15.042Z",
+        "updated_at": "2023-10-08T12:05:53.114Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17640134-bddf-4dc5-a007-83826c7097a9",
+        "amount": 41961,
+        "recharge_date": "2023-10-08T08:05:34.581Z",
+        "recharge_status": "Failed",
+        "recharge_type": "DTH",
+        "created_at": "2023-10-09T02:50:42.430Z",
+        "updated_at": "2023-10-08T06:14:46.393Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3b01050f-2116-4fdb-a81e-5d23d33aa6b8",
+        "amount": 38886,
+        "recharge_date": "2023-10-08T23:54:07.675Z",
+        "recharge_status": "Pending",
+        "recharge_type": "Data Card",
+        "created_at": "2023-10-08T21:14:22.959Z",
+        "updated_at": "2023-10-09T03:10:57.126Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43167dc7-5672-488c-bbbc-ff7ed6d2a87c",
+        "amount": 5780,
+        "recharge_date": "2023-10-08T03:52:21.207Z",
+        "recharge_status": "Cancelled",
+        "recharge_type": "Electricity",
+        "created_at": "2023-10-08T06:49:40.885Z",
+        "updated_at": "2023-10-08T23:40:55.382Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdcafb0d-1d16-4805-b689-1c8dcc937dce",
+        "amount": 37918,
+        "recharge_date": "2023-10-08T11:05:24.520Z",
+        "recharge_status": "Expired",
+        "recharge_type": "Gas",
+        "created_at": "2023-10-09T03:16:39.472Z",
+        "updated_at": "2023-10-08T14:04:49.948Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "customer_service": [
+      {
+        "id": "8415d4b2-de9b-4ea0-97a0-4fc15f64ab8d",
+        "issue_type": "Billing",
+        "issue_description": "Slow internet speed",
+        "issue_status": "Open",
+        "created_at": "2023-10-08T11:14:42.954Z",
+        "updated_at": "2023-10-08T08:59:37.386Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53403e98-6668-485c-b4ba-eb0239c63c22",
+        "issue_type": "Technical",
+        "issue_description": "Incorrect bill amount",
+        "issue_status": "In Progress",
+        "created_at": "2023-10-08T20:57:23.863Z",
+        "updated_at": "2023-10-08T19:42:40.891Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "963c5f7f-ddaf-442a-949a-ad064bc12e3a",
+        "issue_type": "Account",
+        "issue_description": "Unable to login",
+        "issue_status": "Resolved",
+        "created_at": "2023-10-08T10:47:18.555Z",
+        "updated_at": "2023-10-08T16:20:13.979Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "725a98c2-300e-4aa5-ab15-5a33de791fdf",
+        "issue_type": "Service",
+        "issue_description": "No signal",
+        "issue_status": "Escalated",
+        "created_at": "2023-10-08T05:27:06.282Z",
+        "updated_at": "2023-10-08T03:50:43.611Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae55224-16ea-4aa7-92f7-3865e3c8f7f1",
+        "issue_type": "Complaint",
+        "issue_description": "Rude customer support",
+        "issue_status": "Closed",
+        "created_at": "2023-10-08T05:36:35.663Z",
+        "updated_at": "2023-10-08T05:54:54.147Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "cashback": [
+      {
+        "id": "4052a862-ae93-4812-8c5a-624fcd7d7591",
+        "amount": 64551,
+        "cashback_date": "2023-10-08T17:25:19.802Z",
+        "status": "Available",
+        "source": "Online purchase",
+        "created_at": "2023-10-08T22:44:09.925Z",
+        "updated_at": "2023-10-08T15:38:23.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e53407fa-2b1f-40c0-955d-f1b864530476",
+        "amount": 48068,
+        "cashback_date": "2023-10-08T14:41:32.364Z",
+        "status": "Redeemed",
+        "source": "Referral",
+        "created_at": "2023-10-08T08:47:43.708Z",
+        "updated_at": "2023-10-08T20:13:47.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ae59587-4e1b-47c9-ab8f-105d79ea016a",
+        "amount": 46037,
+        "cashback_date": "2023-10-08T23:24:58.285Z",
+        "status": "Expired",
+        "source": "Promotional offer",
+        "created_at": "2023-10-08T07:36:26.862Z",
+        "updated_at": "2023-10-08T19:30:16.588Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6dfaad0c-ed0b-46c9-b7d3-c81c39589fb9",
+        "amount": 60480,
+        "cashback_date": "2023-10-09T02:06:51.026Z",
+        "status": "Pending",
+        "source": "Bill payment",
+        "created_at": "2023-10-08T17:20:22.719Z",
+        "updated_at": "2023-10-08T13:31:35.945Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "493bab75-1460-4dc2-863d-c49781dd7d6c",
+        "amount": 67988,
+        "cashback_date": "2023-10-08T09:10:23.046Z",
+        "status": "Cancelled",
+        "source": "Mobile recharge",
+        "created_at": "2023-10-08T16:54:52.964Z",
+        "updated_at": "2023-10-08T07:12:06.721Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "bill_payment": [
+      {
+        "id": "6916fd35-bd1f-457f-bd54-d5a249f4721d",
+        "amount": 41248,
+        "payment_date": "2023-10-08T22:00:27.404Z",
+        "payment_status": "Paid",
+        "bill_type": "Electricity",
+        "created_at": "2023-10-08T10:35:59.586Z",
+        "updated_at": "2023-10-08T14:01:16.130Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "26c5ef12-c149-4fb3-ae3d-f91fcbb5ae8f",
+        "amount": 88089,
+        "payment_date": "2023-10-08T22:53:57.350Z",
+        "payment_status": "Pending",
+        "bill_type": "Water",
+        "created_at": "2023-10-08T23:51:37.449Z",
+        "updated_at": "2023-10-08T12:45:06.358Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0b3132e-1ab1-4532-9197-f5a3d81a7b3b",
+        "amount": 26204,
+        "payment_date": "2023-10-08T04:34:22.745Z",
+        "payment_status": "Failed",
+        "bill_type": "Gas",
+        "created_at": "2023-10-08T12:05:23.506Z",
+        "updated_at": "2023-10-08T13:58:56.352Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f8a8219-39ba-4226-b903-ccd6f8661041",
+        "amount": 87711,
+        "payment_date": "2023-10-09T00:13:22.303Z",
+        "payment_status": "Cancelled",
+        "bill_type": "Internet",
+        "created_at": "2023-10-08T16:46:04.899Z",
+        "updated_at": "2023-10-08T11:09:33.757Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49156a64-25fc-4b5e-ba16-3dd4de9dc638",
+        "amount": 8775,
+        "payment_date": "2023-10-08T17:10:08.756Z",
+        "payment_status": "Refunded",
+        "bill_type": "Mobile",
+        "created_at": "2023-10-08T21:49:50.727Z",
+        "updated_at": "2023-10-08T10:47:47.195Z",
+        "provider_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6b8a8d29-d46b-4c26-983f-068c70448ef1",
+        "email": "Jairo1@roq.tech",
+        "firstName": "Mona",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57305995",
+        "tenantId": null
+      },
+      {
+        "reference": "f0f1defb-d018-4f88-8c76-d94a9b6c2b30",
+        "email": "Jan63@roq.tech",
+        "firstName": "Arielle",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67798160",
+        "tenantId": null
+      },
+      {
+        "reference": "2818ac9c-3327-483b-a475-20668518d694",
+        "email": "Green_Haag28@roq.tech",
+        "firstName": "Selina",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/833.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a739378c-57f9-4cff-a571-145a0ae06892",
+        "email": "Jettie48@roq.tech",
+        "firstName": "Raegan",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49188945",
+        "tenantId": null
+      },
+      {
+        "reference": "ef295d88-4ef6-48e2-b29f-c32417f7174a",
+        "email": "Ruthe_Osinski-Stehr41@roq.tech",
+        "firstName": "Jaden",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97788899",
+        "tenantId": null
+      }
+    ]
+  }
+]
